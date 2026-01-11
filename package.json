@@ -1,0 +1,41 @@
+{
+  "name": "deep-freeze-node3",
+  "version": "1.0.0",
+  "description": "Recursively Object.freeze() objects, **super** deep.",
+  "keywords": [
+    "deep",
+    "freeze",
+    "node",
+    "npm",
+    "object",
+    "freezeobject"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/deep-freeze-node3#readme",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/deep-freeze-node3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/deep-freeze-node3.git"
+  },
+  "license": "MIT",
+  "author": "tj-commits",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {
+    "compose-function": "^3.0.3",
+    "deep-freeze": "^0.0.1",
+    "deep-freeze-node": "^1.1.3",
+    "deep-freeze-node2": "^1.1.4",
+    "deep-freeze-strict": "^1.1.1",
+    "deepfreeze": "^2.0.0",
+    "freeze-object": "^1.0.1",
+    "object-intrinsic-ai": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
+}
