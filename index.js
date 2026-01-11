@@ -7,6 +7,7 @@ const deepFreezeNode = require("deep-freeze-node")
 const deepFreezeNode2 = require("deep-freeze-node2")
 const deepFreezeStrict = require("deep-freeze-strict")
 const nativeDeepFreeze = require("object-intrinsic-ai").freeze
+const freeze = require("@nathanfaucett/freeze")
 const superFreeze = composeFunction(
   freezeObject,
   deepfreeze,
@@ -14,7 +15,8 @@ const superFreeze = composeFunction(
   deepFreezeNode,
   deepFreezeNode2,
   deepFreezeStrict,
-  nativeDeepFreeze
+  nativeDeepFreeze,
+  freeze
 )
 
 module.exports = function deepFreezeNode3(...args) {

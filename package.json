@@ -1,6 +1,6 @@
 {
   "name": "deep-freeze-node3",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Recursively Object.freeze() objects, **super** deep.",
   "keywords": [
     "deep",
@@ -26,6 +26,7 @@
     "test": "mocha test.js"
   },
   "dependencies": {
+    "@nathanfaucett/freeze": "^0.0.1",
     "compose-function": "^3.0.3",
     "deep-freeze": "^0.0.1",
     "deep-freeze-node": "^1.1.3",
